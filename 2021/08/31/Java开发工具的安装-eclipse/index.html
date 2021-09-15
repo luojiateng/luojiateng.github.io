@@ -16,7 +16,7 @@
 <meta property="og:description" content="Eclipse 的安装和设置">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-08-31T12:39:18.000Z">
-<meta property="article:modified_time" content="2021-09-15T10:15:01.721Z">
+<meta property="article:modified_time" content="2021-09-15T10:18:09.863Z">
 <meta property="article:author" content="BigGoose">
 <meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary">
@@ -266,23 +266,23 @@
 </li>
 </ul>
 </li>
-<li><p>设置编码集，在Java开发中，通常使用UTF-8为通用的字符编码集，以后的所有开发工具都要使用UTF-8编码集。依次点击上方界面的Windows -&gt; Preferences -&gt; General -&gt; Workspace。在Text file encoding中点击Others，选择UTF-8，保存。</p>
+<li><p>设置编码集，在Java开发中，通常使用UTF-8为通用的字符编码集，以后的所有开发工具都要使用UTF-8编码集。依次点击上方界面的<code>Windows· -&gt; </code>Preferences<code> -&gt;</code> <code>General</code> -&gt; <code>Workspace</code>。在<code>Text file encoding</code>中点击<code>Others</code>，选择<code>UTF-8</code>，保存。</p>
 <p><img src></p>
 <p><img src></p>
 </li>
 <li><p>设置字体大小和字形</p>
 <ul>
-<li><p>在和上步相同的界面中选择Appearance -&gt; Colors and Fonts。点击右侧出现的Basic，双击Text Font，根据个人喜好将字体改为合适的大小。</p>
+<li><p>在和上步相同的界面中选择<code>Appearance</code>-&gt; <code>Colors and Fonts</code>。点击右侧出现的<code>Basic</code>，双击<code>Text Font</code>，根据个人喜好将字体改为合适的大小。</p>
 <p><img src>    </p>
 </li>
-<li><p>设置  Package explore下<code>New</code>的结构，点击Windows -&gt; Perspective -&gt;Customize Perspective -&gt; MenuVisibility,根据下图勾选相应的结构</p>
+<li><p>设置  Package explore下<code>New</code>的结构，点击<code>Windows</code> -&gt; <code>Perspective</code> -&gt;<code>Customize Perspective</code> -&gt; <code>MenuVisibility</code>,根据下图勾选相应的结构</p>
 <p><img src alt="待更新">    </p>
 <p>如果需要更多模块，可以根据以上方法增加。</p>
 </li>
 </ul>
 </li>
 <li><p>保存设置好的透视图</p>
-<p>Windows -&gt; Perspective -&gt; Save Perspective As…，选择Java EE，依次点击<code>OK</code>、 <code>Yes</code>，保存设置好的透视图。</p>
+<p><code>Windows</code> -&gt; <code>Perspective</code> -&gt; <code>Save Perspective As...</code>，选择<code>Java EE</code>，依次点击<code>OK</code>、 <code>Yes</code>，保存设置好的透视图。</p>
 </li>
 <li><p>如果不慎将某个模块拖动，改变了熟悉的透视图结构，可以在Windows -&gt; Perspective -&gt; ResetPerspective 中恢复之前设置的透视图结构。</p>
 </li>
@@ -324,7 +324,7 @@
 </ul>
 <h5 id="四、工作空间的选择"><a href="#四、工作空间的选择" class="headerlink" title="四、工作空间的选择"></a>四、工作空间的选择</h5><p>如果打开Eclipse时不慎选中了<code>Use this as the defult and do not ask again</code>,可以进入界面之后选择Windows -&gt; General -&gt; Startup and Shutdown -&gt; Workspace,将<code>Prompt for workspace on startup</code> 勾选上即可。</p>
 <p><code>use this as the defult and do not ask again</code>就是将你目前的工作空间作为默认的工作空间，如果以后需要维护的项目多了起来，那么项目的切换会变得非常麻烦。一般建议不要勾选。</p>
-<h5 id="五、导入已有的工程"><a href="#五、导入已有的工程" class="headerlink" title="五、导入已有的工程"></a>五、导入已有的工程</h5><p>在主界面点击<code>File</code> -&gt; <code>Import</code> -&gt; <code>Existing Project into Workspace</code> -&gt; <code>Next</code>，在第一个框后选择Browse选择项目所在的位置，勾选interview_java(目标项目的地址)，勾选<code>Copy projects into workspace</code>。点击Finish完成导入。</p>
+<h5 id="五、导入已有的工程"><a href="#五、导入已有的工程" class="headerlink" title="五、导入已有的工程"></a>五、导入已有的工程</h5><p>在主界面点击<code>File</code> -&gt; <code>Import</code> -&gt; <code>Existing Project into Workspace</code> -&gt; <code>Next</code>，在第一个框后选择Browse选择项目所在的位置，勾选<code>interview_java(目标项目的地址)</code>，勾选<code>Copy projects into workspace</code>。点击<code>Finish</code>完成导入。</p>
 <h5 id="六、导入Java源文件"><a href="#六、导入Java源文件" class="headerlink" title="六、导入Java源文件"></a>六、导入Java源文件</h5><p>选择源文件，复制，找到目标项目的包，粘贴。</p>
 <h5 id="七、删除一个Java项目"><a href="#七、删除一个Java项目" class="headerlink" title="七、删除一个Java项目"></a>七、删除一个Java项目</h5><p>右击目标项目，找到<code>Delete</code>，删除即可。</p>
 <h5 id="八、程序出现乱码"><a href="#八、程序出现乱码" class="headerlink" title="八、程序出现乱码"></a>八、程序出现乱码</h5><p>参考第二条中编码集的设置。</p>
@@ -674,19 +674,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">sql</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">算法</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">ssm</a>
+                <a href="javascript:void(0)" class="js-tag color4">sql</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">leetcode</a>
+                <a href="javascript:void(0)" class="js-tag color4">ssm</a>
               </li>
              
               <li class="article-tag-list-item">
@@ -695,6 +691,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">备忘</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">leetcode</a>
               </li>
             
             <div class="clearfix"></div>
